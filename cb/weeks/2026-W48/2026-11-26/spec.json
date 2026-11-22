@@ -1,0 +1,188 @@
+{
+ "date": "2026-11-26",
+ "no": 4,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "HONDA PERTAMA",
+  "BUKAN CB100!"
+ ],
+ "yt_title": "Motor Honda Pertama Dirakit di Indonesia Ternyata Bukan CB100! #shorts",
+ "caption": "Banyak yang ngira CB100 atau GL100 yang pertama. Faktanya, perakitan motor Honda di Indonesia mulai tahun 1971 dan motor pertamanya Honda S90Z. Dulu di rumah ada motor Honda jadul apa? 👇\n\n#hondacb #cb100 #motorklasik #sejarahmotor #motorjadul #shorts",
+ "hero_prompt": "Photorealistic nostalgic photo of a restored small classic 1970s motorcycle in front of an old Indonesian shophouse, no logos, no text, no license plate",
+ "refs": "GridOto, Otomotifnet",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Motor Honda pertama yang dirakit di Indonesia itu CB100? Ternyata bukan!",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "HONDA PERTAMA",
+      "DI INDONESIA?"
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "rain": false
+    },
+    {
+     "at": 0.5,
+     "scene": "hero_alert",
+     "text": "BUKAN CB100!",
+     "icon": "cross",
+     "rain": false,
+     "focus": [
+      0.5,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "legenda",
+   "vo": "CB100 sama GL100 emang mungkin yang paling terkenal di sini. Wajar kalau banyak yang ngira mereka duluan.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "PALING",
+      "TERKENAL"
+     ],
+     "color": "yellow",
+     "items": [
+      {
+       "icon": "motor",
+       "x": 290,
+       "y": 1000,
+       "size": 190,
+       "label": "CB100"
+      },
+      {
+       "icon": "motor",
+       "x": 790,
+       "y": 1000,
+       "size": 190,
+       "label": "GL100"
+      }
+     ]
+    },
+    {
+     "at": 0.55,
+     "scene": "bigtext",
+     "text": "TAPI...",
+     "sub": "BUKAN YANG PERTAMA",
+     "color": "orange"
+    }
+   ]
+  },
+  {
+   "id": "tahun",
+   "vo": "Faktanya, perakitan motor Honda di Indonesia dimulai tahun sembilan belas tujuh puluh satu, oleh Federal Motor.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "bigtext",
+     "text": "1971",
+     "sub": "PERAKITAN DIMULAI",
+     "color": "yellow"
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "title": [
+      "DIRAKIT OLEH",
+      "FEDERAL MOTOR"
+     ],
+     "color": "white",
+     "items": [
+      {
+       "icon": "garage",
+       "x": 540,
+       "y": 1000,
+       "size": 300
+      },
+      {
+       "icon": "wrench",
+       "x": 820,
+       "y": 1300,
+       "size": 140
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s90z",
+   "vo": "Dan motor pertamanya adalah Honda S90Z. Bodinya sport, tapi mesinnya mesin bebek.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "bigtext",
+     "text": "HONDA S90Z",
+     "sub": "MOTOR PERTAMA",
+     "color": "orange"
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "title": [
+      "BODI SPORT,",
+      "MESIN BEBEK"
+     ],
+     "color": "yellow",
+     "items": [
+      {
+       "icon": "motor",
+       "x": 540,
+       "y": 1050,
+       "size": 320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rangkum",
+   "vo": "Jadi CB100 bukan yang pertama. Tapi sampai sekarang tetap jadi legenda yang banyak direstorasi.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "mythfact",
+     "myth": "Honda pertama\nrakitan RI: CB100",
+     "fact": "Honda S90Z,\ntahun 1971"
+    }
+   ]
+  },
+  {
+   "id": "komen",
+   "vo": "Dulu di rumah kamu ada motor Honda jadul apa? Tulis di komen ya.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "bigtext",
+     "text": "TULIS DI KOMEN!",
+     "sub": "MOTOR JADUL DI RUMAHMU?",
+     "color": "yellow",
+     "icon": "motor"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow, besok kita bedah cara kerja mesin empat tak di CB.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI NOSTALGIA",
+     "next": "Besok: cara kerja mesin 4 tak CB",
+     "refs": "GridOto, Otomotifnet"
+    }
+   ]
+  }
+ ]
+}

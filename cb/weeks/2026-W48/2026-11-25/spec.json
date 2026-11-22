@@ -1,0 +1,211 @@
+{
+ "date": "2026-11-25",
+ "no": 3,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "PANASIN MOTOR",
+  "LAMA-LAMA?"
+ ],
+ "yt_title": "Manasin Motor Lama-Lama Biar Awet? Ternyata Mitos! #shorts",
+ "caption": "Manasin mesin itu buat ngalirin oli, bukan makin lama makin bagus. Kata kepala bengkel resmi, idealnya di bawah lima menit, dan jangan di ruangan tertutup. Kamu biasanya manasin CB berapa lama? 👇\n\n#hondacb #motorklasik #tipsmotor #mitosmotor #karburator #shorts",
+ "hero_prompt": "Photorealistic classic 1970s small motorcycle idling in a carport at early morning with light exhaust vapor, no logos, no text, no license plate",
+ "refs": "kumparanOTO, CNN Indonesia",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Manasin CB sampai lima belas menit biar mesinnya awet? Eits, itu mitos.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "MANASIN MOTOR",
+      "LAMA-LAMA?"
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "rain": false
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "MITOS!",
+     "color": "red",
+     "shake": true,
+     "icon": "cross"
+    }
+   ]
+  },
+  {
+   "id": "guna",
+   "vo": "Manasin mesin itu gunanya biar oli muter dulu, ngelumasin komponen yang bergesekan.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "piston",
+     "title": [
+      "BIAR OLI",
+      "MUTER DULU"
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "title": [
+      "LUMASI KOMPONEN",
+      "YANG BERGESEKAN"
+     ],
+     "color": "yellow",
+     "items": [
+      {
+       "icon": "oil",
+       "x": 540,
+       "y": 1050,
+       "size": 260
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mitos",
+   "vo": "Tapi bukan berarti makin lama makin bagus. Kata kepala bengkel resmi, idealnya di bawah lima menit aja.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "mythfact",
+     "myth": "Makin lama dipanasin,\nmakin awet",
+     "fact": "Idealnya\ndi bawah 5 menit"
+    }
+   ]
+  },
+  {
+   "id": "efek",
+   "vo": "Kelamaan malah bikin leher knalpot cepet menguning, lampu kepanasan, sampai mika lampu bisa meleleh.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "gauge",
+     "title": [
+      "KELAMAAN?"
+     ],
+     "value": [
+      0.5,
+      0.97
+     ],
+     "gauge_text": "KEPANASAN",
+     "gauge_color": "red",
+     "icon": "warn"
+    },
+    {
+     "at": 0.4,
+     "scene": "checklist",
+     "title": [
+      "EFEKNYA"
+     ],
+     "color": "red",
+     "items": [
+      {
+       "text": "Leher knalpot\ncepat menguning",
+       "mark": "x",
+       "color": "red"
+      },
+      {
+       "text": "Lampu kepanasan",
+       "mark": "x",
+       "color": "red"
+      },
+      {
+       "text": "Mika lampu\nbisa meleleh",
+       "mark": "x",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "karbu",
+   "vo": "Buat CB karburator, maksimalin choke pas mesin dingin. Jadi manasinnya nggak perlu lama.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "CB KARBURATOR:",
+      "PAKAI CHOKE"
+     ],
+     "color": "orange",
+     "items": [
+      {
+       "icon": "motor",
+       "x": 540,
+       "y": 1050,
+       "size": 300
+      }
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "< 5 MENIT",
+     "sub": "UDAH CUKUP",
+     "color": "green",
+     "icon": "clock"
+    }
+   ]
+  },
+  {
+   "id": "aman",
+   "vo": "Satu lagi, jangan manasin motor di ruangan tertutup. Gas buangnya bahaya kalau dihirup.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "JANGAN DI",
+      "RUANG TERTUTUP"
+     ],
+     "color": "red",
+     "items": [
+      {
+       "icon": "house",
+       "x": 540,
+       "y": 1000,
+       "size": 250
+      },
+      {
+       "icon": "warn",
+       "x": 820,
+       "y": 1300,
+       "size": 120
+      }
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "BAHAYA!",
+     "sub": "GAS BUANG JANGAN DIHIRUP",
+     "color": "red",
+     "icon": "warn"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow, besok ada fakta sejarah Honda yang jarang orang tahu.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI TIPS CB",
+     "next": "Besok: Honda pertama dirakit di Indonesia",
+     "refs": "kumparanOTO, CNN Indonesia"
+    }
+   ]
+  }
+ ]
+}

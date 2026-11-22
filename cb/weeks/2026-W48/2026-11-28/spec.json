@@ -1,0 +1,232 @@
+{
+ "date": "2026-11-28",
+ "no": 6,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "BAN TIPIS",
+  "PAS HUJAN?"
+ ],
+ "yt_title": "Ban Motor Udah Tipis? Cek Tanda Segitiga Ini Sebelum Hujan! #shorts",
+ "caption": "Ban aus bikin gampang selip dan rawan aquaplaning pas hujan. Cek tanda segitiga TWI: kalau alurnya udah rata sama tonjolan TWI atau tinggal 1,6 mm, waktunya ganti. Ban motor kamu masih aman? 👇\n\n#tipsmotor #safetyriding #musimhujan #banmotor #motorklasik #shorts",
+ "hero_prompt": "Photorealistic close-up of a worn motorcycle tire on wet asphalt in the rain, no logos, no text, no brand markings",
+ "refs": "VIVA Otomotif, GridOto",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Ban motor udah tipis tapi masih dipakai pas hujan? Ini resep buat kepeleset.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "BAN TIPIS",
+      "PAS HUJAN?"
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "hero_alert",
+     "text": "RAWAN SELIP!",
+     "focus": [
+      0.5,
+      0.65
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alur",
+   "vo": "Alur ban itu gunanya buang air dari bawah ban. Kalau alurnya habis, ban bisa ngambang di atas air.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "wheel",
+     "title": [
+      "ALUR BAN",
+      "BUANG AIR"
+     ],
+     "label": "ALUR"
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "rain": true,
+     "title": [
+      "AQUAPLANING"
+     ],
+     "color": "blue",
+     "pill": "BAN NGAMBANG DI AIR",
+     "pill_color": "red",
+     "items": [
+      {
+       "icon": "wheel",
+       "x": 540,
+       "y": 1050,
+       "size": 300
+      },
+      {
+       "icon": "drop",
+       "x": 860,
+       "y": 1300,
+       "size": 110
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "twi",
+   "vo": "Cara ceknya gampang. Cari tanda segitiga di dinding samping ban. Itu penunjuk TWI, tonjolan kecil di dalam alur.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "CARI TANDA",
+      "SEGITIGA"
+     ],
+     "color": "yellow",
+     "items": [
+      {
+       "icon": "warn",
+       "x": 540,
+       "y": 1000,
+       "size": 200
+      }
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "TWI",
+     "sub": "TREAD WEAR INDICATOR",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "batas",
+   "vo": "Kalau permukaan ban udah rata sama tonjolan TWI, atau alurnya tinggal satu koma enam milimeter, waktunya ganti.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "bigtext",
+     "text": "1,6 MM",
+     "sub": "BATAS ALUR BAN",
+     "color": "red"
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "title": [
+      "WAKTUNYA",
+      "GANTI BAN"
+     ],
+     "color": "orange",
+     "items": [
+      {
+       "icon": "wheel",
+       "x": 540,
+       "y": 1050,
+       "size": 320
+      },
+      {
+       "icon": "check",
+       "x": 860,
+       "y": 1330,
+       "size": 90
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risiko",
+   "vo": "Ban aus bikin gampang selip dan pengereman kurang pakem, apalagi di jalan basah.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "gauge",
+     "rain": true,
+     "title": [
+      "GRIP BAN AUS"
+     ],
+     "value": [
+      0.85,
+      0.12
+     ],
+     "gauge_text": "LICIN",
+     "gauge_color": "red",
+     "icon": "warn"
+    },
+    {
+     "at": 0.5,
+     "scene": "checklist",
+     "title": [
+      "BAN AUS:"
+     ],
+     "color": "red",
+     "items": [
+      {
+       "text": "Gampang selip",
+       "mark": "x",
+       "color": "red"
+      },
+      {
+       "text": "Rem kurang pakem",
+       "mark": "x",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bengkel",
+   "vo": "Ragu bacanya? Minta cek di bengkel atau toko ban. Jangan nunggu botak.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "CEK DI BENGKEL"
+     ],
+     "color": "green",
+     "pill": "JANGAN NUNGGU BOTAK",
+     "pill_color": "red",
+     "items": [
+      {
+       "icon": "garage",
+       "x": 540,
+       "y": 1000,
+       "size": 330
+      },
+      {
+       "icon": "wheel",
+       "x": 820,
+       "y": 1320,
+       "size": 150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow, besok kenapa lampu motor wajib nyala siang hari.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI MUSIM HUJAN",
+     "next": "Besok: kenapa lampu motor wajib nyala siang",
+     "refs": "VIVA Otomotif, GridOto"
+    }
+   ]
+  }
+ ]
+}

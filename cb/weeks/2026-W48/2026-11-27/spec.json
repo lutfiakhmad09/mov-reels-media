@@ -1,0 +1,174 @@
+{
+ "date": "2026-11-27",
+ "no": 5,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "MESIN 4 TAK",
+  "KERJANYA GIMANA?"
+ ],
+ "yt_title": "Cara Kerja Mesin 4 Tak di Motor CB, Gampang Dipahami! #shorts",
+ "caption": "Hisap, kompresi, usaha, buang. Empat langkah ini yang bikin CB kamu bisa jalan. Rajin cek oli dan busi biar kerjanya lancar terus. Langkah mana yang baru kamu tahu? 👇\n\n#hondacb #motorklasik #tipsmotor #mesinmotor #edukasiotomotif #shorts",
+ "refs": "CNN Indonesia, detikOto",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Mesin CB itu mesin empat tak. Tapi empat tak itu sebenernya apa sih?",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "MESIN 4 TAK",
+      "ITU APA SIH?"
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "rain": false
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "4 LANGKAH",
+     "sub": "HISAP • KOMPRESI • USAHA • BUANG",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "hisap",
+   "vo": "Satu, hisap. Piston turun, katup masuk kebuka, campuran udara dan bensin dari karburator masuk.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "piston",
+     "title": [
+      "1. HISAP"
+     ],
+     "stage": 0,
+     "color": "blue"
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "KATUP MASUK",
+     "sub": "KEBUKA, CAMPURAN MASUK",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "id": "kompresi",
+   "vo": "Dua, kompresi. Dua katup nutup, piston naik, campurannya dipadatkan.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "piston",
+     "title": [
+      "2. KOMPRESI"
+     ],
+     "stage": 1,
+     "color": "yellow"
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "DIPADATKAN",
+     "sub": "DUA KATUP NUTUP",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "usaha",
+   "vo": "Tiga, usaha. Busi memercikkan api, campuran terbakar dan dorong piston turun. Ini yang bikin motor jalan.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "piston",
+     "title": [
+      "3. USAHA"
+     ],
+     "stage": 2,
+     "color": "red"
+    },
+    {
+     "at": 0.55,
+     "scene": "plug",
+     "title": [
+      "BUSI",
+      "MERCIKKAN API"
+     ],
+     "flow": 1,
+     "spark": 1
+    }
+   ]
+  },
+  {
+   "id": "buang",
+   "vo": "Empat, buang. Katup buang kebuka, piston naik, gas sisa keluar lewat knalpot.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "piston",
+     "title": [
+      "4. BUANG"
+     ],
+     "stage": 3,
+     "color": "white"
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "GAS SISA",
+     "sub": "KELUAR LEWAT KNALPOT",
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "rawat",
+   "vo": "Makanya rajin cek oli dan busi, biar empat langkah ini kerjanya lancar terus. Kalau mesin brebet, cek ke bengkel.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "checklist",
+     "title": [
+      "BIAR LANCAR"
+     ],
+     "items": [
+      {
+       "text": "Cek oli rutin",
+       "mark": "v",
+       "color": "green"
+      },
+      {
+       "text": "Cek busi",
+       "mark": "v",
+       "color": "green"
+      },
+      {
+       "text": "Mesin brebet?\nCek ke bengkel",
+       "mark": "!",
+       "color": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow, besok cara cek ban sebelum hujan makin deras.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI TIPS CB",
+     "next": "Besok: cek ban motor sebelum hujan",
+     "refs": "CNN Indonesia, detikOto"
+    }
+   ]
+  }
+ ]
+}

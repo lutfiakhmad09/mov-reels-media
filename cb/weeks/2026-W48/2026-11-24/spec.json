@@ -1,0 +1,243 @@
+{
+ "date": "2026-11-24",
+ "no": 2,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "RANTAI KARATAN",
+  "HABIS HUJAN?"
+ ],
+ "yt_title": "Rantai CB Karatan Habis Hujan? Jangan Didiemin! #shorts",
+ "caption": "Habis hujan, pelumas rantai kebilas dan rantai jadi gampang karatan. Bersihin, keringin, terus lumasi pakai chain lube. Kalau udah kendor dan nggak bisa disetel lagi, ganti di bengkel ya! Rantai CB kamu terakhir dilumasi kapan? 👇\n\n#hondacb #motorklasik #tipsmotor #musimhujan #rantaimotor #shorts",
+ "hero_prompt": "Photorealistic close-up of a rusty wet motorcycle drive chain and rear sprocket on a classic 1970s small motorcycle after rain, no logos, no text, no license plate",
+ "refs": "GridOto/Otomotifnet, detikOto",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Habis hujan-hujanan, rantai CB kamu jadi oranye dan berisik? Itu tanda bahaya.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "HABIS HUJAN,",
+      "RANTAI KARATAN?"
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "hero_alert",
+     "text": "KARATAN!",
+     "focus": [
+      0.5,
+      0.65
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sebab",
+   "vo": "Air hujan ngebilas pelumas rantai. Terus pas kena panas, rantai jadi cepet karat.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "chain",
+     "rain": true,
+     "title": [
+      "PELUMAS",
+      "KEBILAS HUJAN"
+     ],
+     "color": "blue",
+     "rust": [
+      0,
+      0.3
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "chain",
+     "title": [
+      "KENA PANAS,",
+      "CEPET KARAT"
+     ],
+     "color": "orange",
+     "rust": [
+      0.3,
+      1
+     ],
+     "speed": 0.6
+    }
+   ]
+  },
+  {
+   "id": "akibat",
+   "vo": "Rantai karatan bikin gesekan berlebih. Rantai jadi berisik, cepet aus, dan gir ikut lancip.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "chain",
+     "title": [
+      "GESEKAN",
+      "BERLEBIH"
+     ],
+     "color": "red",
+     "rust": 1,
+     "slack": [
+      0,
+      1
+     ],
+     "pill": "CEPET AUS & KENDOR"
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "big": "KREK!",
+     "shake": 1,
+     "pill": "GIR IKUT LANCIP",
+     "pill_color": "red",
+     "items": [
+      {
+       "icon": "wheel",
+       "x": 540,
+       "y": 1050,
+       "size": 330
+      },
+      {
+       "icon": "soundwave",
+       "x": 920,
+       "y": 1050,
+       "size": 200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bersih",
+   "vo": "Solusinya, bersihin rantai pakai sabun dan sikat bekas, terus keringin sampai bener-bener kering.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "BERSIHIN",
+      "PAKAI SABUN"
+     ],
+     "items": [
+      {
+       "icon": "bucket",
+       "x": 330,
+       "y": 950,
+       "size": 170
+      },
+      {
+       "icon": "wrench",
+       "x": 760,
+       "y": 1000,
+       "size": 170
+      }
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "KERINGIN!",
+     "sub": "SAMPAI BENAR-BENAR KERING",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "lumas",
+   "vo": "Baru semprot chain lube secukupnya, sambil cek kekendoran rantainya.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "chain",
+     "title": [
+      "SEMPROT",
+      "CHAIN LUBE"
+     ],
+     "color": "green",
+     "rust": 0.15,
+     "oil": [
+      0,
+      1
+     ],
+     "speed": 0.5
+    },
+    {
+     "at": 0.5,
+     "scene": "chain",
+     "title": [
+      "CEK",
+      "KEKENDORAN"
+     ],
+     "color": "yellow",
+     "rust": 0.15,
+     "slack": 0.5,
+     "speed": 0.3
+    }
+   ]
+  },
+  {
+   "id": "bengkel",
+   "vo": "Kalau rantai udah kendor dan nggak bisa disetel ke standar lagi, mending ganti di bengkel. Jangan dipaksa.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "chain",
+     "title": [
+      "NGGAK BISA",
+      "DISETEL LAGI?"
+     ],
+     "color": "red",
+     "rust": 0.6,
+     "slack": 1,
+     "speed": 0.4
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "title": [
+      "GANTI DI BENGKEL"
+     ],
+     "color": "green",
+     "pill": "JANGAN DIPAKSA",
+     "pill_color": "red",
+     "items": [
+      {
+       "icon": "garage",
+       "x": 540,
+       "y": 1000,
+       "size": 330
+      },
+      {
+       "icon": "wrench",
+       "x": 800,
+       "y": 1320,
+       "size": 160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow, besok kita bongkar mitos manasin motor lama-lama.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI MUSIM HUJAN",
+     "next": "Besok: mitos manasin motor lama-lama",
+     "refs": "GridOto/Otomotifnet, detikOto"
+    }
+   ]
+  }
+ ],
+ "hero_url": "https://export-download.canva.com/nvq2s/DAHbp3nvq2s/-1/0/0001-1123045193321652282.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071443Z&X-Amz-Expires=36253&X-Amz-Signature=2b048f38ab31a0e034f140ecab878df49c8fdd029c47b637f9855e9e1c42f043&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2022%20Nov%202026%2017%3A18%3A56%20GMT"
+}

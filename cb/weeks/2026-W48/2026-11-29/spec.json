@@ -1,0 +1,188 @@
+{
+ "date": "2026-11-29",
+ "no": 7,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "LAMPU NYALA",
+  "SIANG BOLONG?"
+ ],
+ "yt_title": "Kenapa Lampu Motor Wajib Nyala Siang Hari? Ini Aturannya #shorts",
+ "caption": "Lampu utama motor wajib nyala siang hari biar kamu kelihatan pengguna jalan lain. Aturannya di UU 22/2009 pasal 107 ayat 2, dendanya maksimal Rp100 ribu. CB kamu masih pakai saklar lampu? 👇\n\n#hondacb #safetyriding #tipsmotor #aturanlalulintas #motorklasik #shorts",
+ "refs": "CNN Indonesia, Hukumonline",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Siang bolong, kenapa lampu motor wajib nyala? Emang ngaruh?",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "SIANG BOLONG,",
+      "LAMPU NYALA?"
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "rain": false
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "KENAPA?",
+     "color": "yellow",
+     "icon": "warn"
+    }
+   ]
+  },
+  {
+   "id": "alasan",
+   "vo": "Alasannya visibilitas. Motor itu kecil, gampang luput dari pandangan sopir mobil atau truk.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "BIAR",
+      "KELIHATAN"
+     ],
+     "color": "yellow",
+     "items": [
+      {
+       "icon": "motor",
+       "x": 540,
+       "y": 1050,
+       "size": 300
+      }
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "GAMPANG LUPUT",
+     "sub": "DARI SOPIR MOBIL & TRUK",
+     "color": "red",
+     "icon": "warn"
+    }
+   ]
+  },
+  {
+   "id": "aturan",
+   "vo": "Aturannya ada di Undang-Undang Lalu Lintas nomor dua puluh dua tahun dua ribu sembilan, pasal seratus tujuh ayat dua.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "bigtext",
+     "text": "UU 22/2009",
+     "sub": "UU LALU LINTAS",
+     "color": "yellow"
+    },
+    {
+     "at": 0.55,
+     "scene": "bigtext",
+     "text": "PASAL 107",
+     "sub": "AYAT 2: LAMPU SIANG WAJIB",
+     "color": "orange"
+    }
+   ]
+  },
+  {
+   "id": "sanksi",
+   "vo": "Kalau dilanggar, ancamannya kurungan paling lama lima belas hari, atau denda paling banyak seratus ribu rupiah.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "bigtext",
+     "text": "15 HARI",
+     "sub": "KURUNGAN MAKSIMAL",
+     "color": "orange"
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "text": "RP100.000",
+     "sub": "DENDA MAKSIMAL",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "id": "cb",
+   "vo": "Motor baru banyak yang lampunya otomatis nyala. Tapi CB lawas yang masih pakai saklar, jangan lupa dinyalain ya.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "checklist",
+     "title": [
+      "CEK LAMPUMU"
+     ],
+     "items": [
+      {
+       "text": "Motor baru:\nnyala otomatis",
+       "mark": "v",
+       "color": "green"
+      },
+      {
+       "text": "CB lawas: nyalain\nsaklar lampunya",
+       "mark": "!",
+       "color": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hujan",
+   "vo": "Apalagi pas hujan lebat atau kabut. Lampu nyala, kamu kelihatan, perjalanan lebih aman.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "rain": true,
+     "title": [
+      "HUJAN LEBAT",
+      "& KABUT"
+     ],
+     "color": "blue",
+     "items": [
+      {
+       "icon": "motor",
+       "x": 540,
+       "y": 1050,
+       "size": 280
+      },
+      {
+       "icon": "drop",
+       "x": 860,
+       "y": 1300,
+       "size": 100
+      }
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "bigtext",
+     "rain": true,
+     "text": "LAMPU NYALA!",
+     "sub": "BIAR KAMU KELIHATAN",
+     "color": "green",
+     "icon": "check"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow, minggu depan masih banyak tips CB yang seru.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI TIPS CB",
+     "next": "Minggu depan: tips CB berikutnya",
+     "refs": "CNN Indonesia, Hukumonline"
+    }
+   ]
+  }
+ ]
+}
