@@ -1,0 +1,279 @@
+{
+ "date": "2026-11-23",
+ "no": 1,
+ "tag": "#TipsMotor",
+ "thumb_title": [
+  "REM BLONG",
+  "HABIS HUJAN?"
+ ],
+ "yt_title": "Habis Terobos Genangan, Rem Jadi Blong? Ini Sebabnya! #shorts",
+ "caption": "Habis lewat genangan, rem tromol bisa kerasa blong sementara. Jalan pelan dan tekan rem pelan-pelan beberapa kali sampai pakemnya balik. Kalau tetap nggak pakem, langsung cek ke bengkel ya! Kamu pernah ngalamin? Cerita di komen 👇\n\n#hondacb #motorklasik #tipsmotor #musimhujan #safetyriding #shorts",
+ "hero_prompt": "Photorealistic cinematic photo: a classic 1970s small naked motorcycle riding through a rain puddle on an Indonesian city street at dusk, big splash, heavy rain, no logos, no text, no license plate",
+ "refs": "GridOto, CNN Indonesia, detikOto",
+ "segments": [
+  {
+   "id": "hook",
+   "vo": "Habis terobos genangan, rem CB kamu kok jadi nggak pakem? Ini bahayanya.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "hero",
+     "title": [
+      "HABIS TEROBOS",
+      "GENANGAN..."
+     ],
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    },
+    {
+     "at": 0.5,
+     "scene": "hero_alert",
+     "text": "REM BLONG?",
+     "focus": [
+      0.66,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "carakerja",
+   "vo": "Rem tromol kerjanya gini: kampas di dalam roda mengembang, terus menggesek dinding tromol.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "wheel",
+     "title": [
+      "CARA KERJA",
+      "REM TROMOL"
+     ],
+     "label": "TROMOL"
+    },
+    {
+     "at": 0.4,
+     "scene": "drum",
+     "title": [
+      "KAMPAS MENGEMBANG",
+      "MENGGESEK TROMOL"
+     ],
+     "expand": [
+      0,
+      1
+     ],
+     "heat": [
+      0,
+      0.9
+     ],
+     "label": "KAMPAS",
+     "arrows": true,
+     "size": 78
+    }
+   ]
+  },
+  {
+   "id": "masalah",
+   "vo": "Pas lewat genangan, air sama lumpur ikut masuk. Gesekannya berkurang, jadinya rem kerasa blong sementara.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "drum",
+     "rain": true,
+     "title": [
+      "AIR + LUMPUR",
+      "IKUT MASUK"
+     ],
+     "color": "blue",
+     "water": [
+      0,
+      1
+     ],
+     "mud": 0.45,
+     "size": 100
+    },
+    {
+     "at": 0.5,
+     "scene": "drum",
+     "rain": true,
+     "title": [
+      "GESEKAN BERKURANG"
+     ],
+     "color": "red",
+     "water": 1,
+     "mud": 0.45,
+     "gauge": [
+      0.85,
+      0.12
+     ],
+     "gauge_label": "DAYA PENGEREMAN",
+     "pill": "REM BLONG SEMENTARA"
+    }
+   ]
+  },
+  {
+   "id": "solusi",
+   "vo": "Makanya habis lewat genangan, jangan langsung ngebut. Jalan pelan, tekan rem pelan-pelan beberapa kali, sampai pakemnya balik lagi.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "gauge",
+     "title": [
+      "JANGAN LANGSUNG",
+      "NGEBUT!"
+     ],
+     "value": 0.12,
+     "gauge_text": "PELAN",
+     "icon": "cross"
+    },
+    {
+     "at": 0.4,
+     "scene": "lever",
+     "title": [
+      "JALAN PELAN"
+     ],
+     "presses": 3
+    }
+   ]
+  },
+  {
+   "id": "rumah",
+   "vo": "Sampai rumah, bersihin rem dari lumpur. Kalau besoknya bunyi mencicit atau rem kerasa seret, tromolnya perlu dibuka dan dibersihin.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "icons",
+     "title": [
+      "SAMPAI RUMAH:",
+      "BERSIHIN LUMPUR"
+     ],
+     "items": [
+      {
+       "icon": "house",
+       "x": 300,
+       "y": 820,
+       "size": 150
+      },
+      {
+       "icon": "bucket",
+       "x": 760,
+       "y": 900,
+       "size": 150
+      },
+      {
+       "icon": "wheel",
+       "x": 540,
+       "y": 1250,
+       "size": 230
+      }
+     ]
+    },
+    {
+     "at": 0.4,
+     "scene": "icons",
+     "pill": "BESOKNYA MENCICIT / SERET?",
+     "big": "CIIIT!",
+     "shake": 1,
+     "items": [
+      {
+       "icon": "wheel",
+       "x": 540,
+       "y": 1050,
+       "size": 330
+      },
+      {
+       "icon": "soundwave",
+       "x": 920,
+       "y": 1050,
+       "size": 200
+      }
+     ]
+    },
+    {
+     "at": 0.7,
+     "scene": "drum",
+     "title": [
+      "BUKA & BERSIHIN",
+      "TROMOL"
+     ],
+     "color": "blue",
+     "expand": 0.3,
+     "mud": 1.0,
+     "water": [
+      0.8,
+      0
+     ],
+     "still": true,
+     "size": 92
+    }
+   ]
+  },
+  {
+   "id": "bengkel",
+   "vo": "Kampas yang kerendem juga bisa mengeras. Kalau rem tetap nggak pakem, langsung cek ke bengkel, jangan dipaksa.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "drum",
+     "title": [
+      "KAMPAS BISA",
+      "MENGERAS"
+     ],
+     "color": "orange",
+     "expand": 0.4,
+     "cracks": [
+      0,
+      1
+     ],
+     "still": true,
+     "zoom": [
+      1.0,
+      1.6
+     ],
+     "focus": [
+      0.68,
+      0.47
+     ],
+     "size": 100
+    },
+    {
+     "at": 0.5,
+     "scene": "icons",
+     "title": [
+      "CEK KE BENGKEL"
+     ],
+     "color": "green",
+     "pill": "JANGAN DIPAKSA",
+     "pill_color": "red",
+     "items": [
+      {
+       "icon": "garage",
+       "x": 540,
+       "y": 1000,
+       "size": 330
+      },
+      {
+       "icon": "wrench",
+       "x": 800,
+       "y": 1320,
+       "size": 160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "vo": "Follow buat seri tips CB musim hujan berikutnya.",
+   "beats": [
+    {
+     "at": 0,
+     "scene": "cta",
+     "badge": "SERI MUSIM HUJAN",
+     "next": "Besok: rantai karatan habis hujan",
+     "refs": "GridOto, CNN Indonesia, detikOto"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+name: CB Shorts - cek Telegram & kirim naskah
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    paths: ["cb/weeks/**/READY"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: cb-approval, cancel-in-progress: false }
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - name: Kirim naskah baru & baca balasan
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+        run: |
+          python3 cb/engine/notify_week.py
+          python3 cb/engine/approve.py
+      - name: Simpan status
+        run: |
+          git config user.name "lily-bot" && git config user.email "lily-bot@users.noreply.github.com"
+          git add -A cb/state cb/weeks cb/PAUSED 2>/dev/null || git add -A cb/state cb/weeks
+          if ! git diff --cached --quiet; then
+            git commit -m "cb: status persetujuan" && for i in 1 2 3; do git pull --rebase -X theirs origin main && git push origin HEAD:main && break; sleep 5; done
+          fi
