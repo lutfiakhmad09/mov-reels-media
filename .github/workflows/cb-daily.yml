@@ -2,6 +2,9 @@ name: CB Shorts - produksi harian
 on:
   schedule:
     - cron: "7 22 * * *"   # 05:07 WIB (produksi utama)
+    - cron: "17 23 * * *"  # 06:17 WIB (cadangan bila jadwal GitHub telat/terlewat)
+    - cron: "17 0 * * *"   # 07:17 WIB (cadangan)
+    - cron: "17 1 * * *"   # 08:17 WIB (cadangan)
     - cron: "7 3 * * *"    # 10:07 WIB (coba lagi kalau gagal)
     - cron: "37 8 * * *"   # 15:37 WIB (coba lagi setelah kuota Gemini reset)
   workflow_dispatch:

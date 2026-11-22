@@ -21,7 +21,7 @@ def git_push(paths, msg):
     raise SystemExit("git push gagal")
 
 def first_run():
-    return dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).hour < 9
+    return dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).hour < 6
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]; dry = "--dry" in sys.argv
