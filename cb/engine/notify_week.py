@@ -30,7 +30,7 @@ def main():
             lines.append("   Hook: " + s["segments"][0]["vo"])
             lines.append("   Isi: " + " ".join(seg["vo"] for seg in s["segments"][1:-1])[:300] + "\n")
         if os.path.exists(note): lines.append("📈 Riset tren:\n" + open(note, encoding="utf-8").read()[:900] + "\n")
-        lines.append("Balas OKE kalau setuju, atau REVISI #nomor: catatan. Tanpa OKE, video minggu ini tidak dibuat.")
+        lines.append("Balas OKE kalau setuju, atau REVISI #nomor: catatan. Tanpa OKE, video minggu ini tidak dibuat.\nPerintah lain: STATUS · SKIP 25/11 · STOP · LANJUT")
         tg_msg("\n".join(lines)); open(os.path.join(w, "NOTIFIED"), "w").write("ok"); print("notified", w)
 
 if __name__ == "__main__":

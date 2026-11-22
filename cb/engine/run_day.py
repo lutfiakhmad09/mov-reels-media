@@ -29,6 +29,7 @@ def main():
     ep = os.path.dirname(found[0]); week = os.path.dirname(ep)
     if not dry and not os.path.exists(os.path.join(week, "APPROVED")):
         tg_msg(f"⏳ CB Shorts {today}: minggu {os.path.basename(week)} belum di-OKE-kan, video hari ini tidak dibuat. Balas OKE kalau naskahnya sudah sesuai."); return
+    if os.path.exists(os.path.join(ep, "SKIP")) and not dry: print("SKIP"); return
     vid_rel = f"cb/videos/{today}.mp4"; vid = os.path.join(ROOT, "videos", f"{today}.mp4")
     if os.path.exists(os.path.join(ep, "DONE")) and not dry: print("sudah selesai"); return
     work = os.path.join("/tmp", "cbwork", today); shutil.rmtree(work, ignore_errors=True); os.makedirs(work)
