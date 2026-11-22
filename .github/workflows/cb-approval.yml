@@ -1,7 +1,7 @@
 name: CB Shorts - cek Telegram & kirim naskah
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/10 * * * *"
   push:
     paths: ["cb/weeks/**/READY"]
   workflow_dispatch:
