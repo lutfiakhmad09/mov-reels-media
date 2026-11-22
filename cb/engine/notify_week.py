@@ -5,8 +5,21 @@ from publish import tg_msg
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 HARI = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
 
+def fetch_heroes():
+    """Spec boleh berisi hero_url (link ekspor Canva, berlaku ~24 jam) -> unduh jadi hero.png."""
+    import urllib.request
+    for sp in glob.glob(os.path.join(ROOT, "weeks", "*", "*", "spec.json")):
+        s = json.load(open(sp, encoding="utf-8")); hp = os.path.join(os.path.dirname(sp), "hero.png")
+        if s.get("hero_url") and not os.path.exists(hp):
+            try:
+                data = urllib.request.urlopen(s["hero_url"], timeout=120).read()
+                open(hp, "wb").write(data); print("hero ok", hp, len(data))
+            except Exception as e:
+                print("hero gagal", sp, e)
+
 def main():
     import datetime as dt
+    fetch_heroes()
     for w in sorted(glob.glob(os.path.join(ROOT, "weeks", "*"))):
         if os.path.exists(os.path.join(w, "NOTIFIED")) or not os.path.exists(os.path.join(w, "READY")): continue
         lines = [f"🏍️ Naskah CB Shorts minggu {os.path.basename(w)} (tayang 18.00 WIB)\n"]

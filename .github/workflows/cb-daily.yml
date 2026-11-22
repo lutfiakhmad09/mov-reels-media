@@ -6,6 +6,7 @@ on:
     inputs:
       date: { description: "Tanggal episode (YYYY-MM-DD, kosong = hari ini WIB)", required: false, default: "" }
       dry: { description: "Tes saja (tidak dijadwalkan ke YouTube)", type: boolean, default: true }
+      buffer_test: { description: "Tes koneksi Buffer (buat DRAFT, tidak tayang)", type: boolean, default: false }
 permissions:
   contents: write
 concurrency: { group: cb-shorts, cancel-in-progress: false }
@@ -28,4 +29,4 @@ jobs:
           GEMINI_KEYS: ${{ secrets.GEMINI_KEYS }}
           BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
-        run: python3 cb/engine/run_day.py ${{ github.event.inputs.date }} ${{ github.event.inputs.dry == 'true' && '--dry' || '' }}
+        run: python3 cb/engine/run_day.py ${{ github.event.inputs.date }} ${{ github.event.inputs.dry == 'true' && '--dry' || '' }} ${{ github.event.inputs.buffer_test == 'true' && '--buffer-test' || '' }}

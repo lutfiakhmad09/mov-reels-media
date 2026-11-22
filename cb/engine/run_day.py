@@ -41,6 +41,9 @@ def main():
     S = json.load(open(spec, encoding="utf-8")); model = open(os.path.join(work, "raw", "model.txt")).read().strip()
     if dry:
         tg_video(out, f"🧪 TES pipeline CB Shorts ({today})\n{S['yt_title']}\nVO: {model}\n(Tidak dijadwalkan ke YouTube)")
+        if "--buffer-test" in sys.argv:
+            post = buffer_post(S, "https://raw.githubusercontent.com/lutfiakhmad09/mov-reels-media/cb-shorts/videos/cb/cb-copbusi-brebet-hujan.mp4", "", draft=True)
+            tg_msg(f"🧪 Tes Buffer OK: draft dibuat (id {post.get('id')}, status {post.get('status')}). Draft ini tidak tayang, boleh dihapus di Buffer.")
         print("dry run selesai"); return
     os.makedirs(os.path.dirname(vid), exist_ok=True); shutil.copy(out, vid)
     git_push([vid_rel], f"cb: video {today}")
