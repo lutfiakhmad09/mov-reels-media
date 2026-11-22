@@ -20,15 +20,21 @@ def git_push(paths, msg):
            subprocess.run(["git", "push", "origin", "HEAD:main"]).returncode == 0: return
     raise SystemExit("git push gagal")
 
+def first_run():
+    return dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).hour < 9
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]; dry = "--dry" in sys.argv
     today = args[0] if args else dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).strftime("%Y-%m-%d")
     if os.path.exists(os.path.join(ROOT, "PAUSED")) and not dry: print("PAUSED"); return
     found = glob.glob(os.path.join(ROOT, "weeks", "*", today, "spec.json"))
-    if not found: tg_msg(f"⚠️ CB Shorts {today}: belum ada naskah untuk hari ini. Tidak ada video yang dibuat."); return
+    if not found:
+        if first_run() or dry: tg_msg(f"⚠️ CB Shorts {today}: belum ada naskah untuk hari ini. Tidak ada video yang dibuat.")
+        return
     ep = os.path.dirname(found[0]); week = os.path.dirname(ep)
     if not dry and not os.path.exists(os.path.join(week, "APPROVED")):
-        tg_msg(f"⏳ CB Shorts {today}: minggu {os.path.basename(week)} belum di-OKE-kan, video hari ini tidak dibuat. Balas OKE kalau naskahnya sudah sesuai."); return
+        if first_run(): tg_msg(f"⏳ CB Shorts {today}: minggu {os.path.basename(week)} belum di-OKE-kan, video hari ini tidak dibuat. Balas OKE kalau naskahnya sudah sesuai.")
+        return
     if os.path.exists(os.path.join(ep, "SKIP")) and not dry: print("SKIP"); return
     vid_rel = f"cb/videos/{today}.mp4"; vid = os.path.join(ROOT, "videos", f"{today}.mp4")
     if os.path.exists(os.path.join(ep, "DONE")) and not dry: print("sudah selesai"); return
@@ -58,7 +64,7 @@ if __name__ == "__main__":
     try: main()
     except SystemExit as e:
         if e.code not in (None, 0):
-            try: tg_msg(f"❌ CB Shorts gagal: {e.code}\nCek tab Actions di GitHub mov-reels-media.")
+            try: tg_msg(f"❌ CB Shorts gagal: {e.code}\n" + ("Sistem akan coba lagi otomatis jam 10.07 dan 15.37 WIB (kuota Gemini reset ±15.00 WIB)." if first_run() else "Cek tab Actions di GitHub mov-reels-media."))
             except Exception: pass
         raise
     except Exception as e:
